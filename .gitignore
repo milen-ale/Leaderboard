@@ -2,5 +2,3 @@ node_modules/
 package-lock.json
 dist/
 .hintrc
-.stylelintrc.json
-.eslintrc.json
