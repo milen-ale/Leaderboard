@@ -23,6 +23,10 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.btn:active {
+  filter: none;
+}
+
 .btn {
   color: #222;
   border: none;
@@ -30,19 +34,10 @@ body {
   font-size: 1rem;
   font-family: inherit;
   cursor: pointer;
-  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+  filter:
+    drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
     drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   transition: all 0.2s ease-in-out;
-}
-
-.btn:active {
-  filter: none;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
 }
 
 form {
@@ -52,23 +47,6 @@ form {
 .scores-container {
   display: flex;
   flex-direction: column;
-}
-
-.btn {
-  border: none;
-  background-color: #eee;
-  color: #222;
-  font-size: 1rem;
-  font-family: inherit;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
-    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
-  transition: all 0.2s ease-in-out;
-}
-
-.btn:active {
-  filter: none;
 }
 
 .heading {
@@ -98,10 +76,6 @@ table td {
   font-size: 0.875rem;
   font-weight: bold;
   display: flex;
-}
-
-form {
-  margin-bottom: 2rem;
 }
 
 form input {
