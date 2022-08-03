@@ -23,10 +23,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.btn:active {
-  filter: none;
-}
-
 .btn {
   color: #222;
   border: none;
@@ -38,6 +34,10 @@ body {
     drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
     drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   transition: all 0.2s ease-in-out;
+}
+
+.btn:active {
+  filter: none;
 }
 
 form {
