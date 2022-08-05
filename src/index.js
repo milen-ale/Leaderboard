@@ -1,7 +1,6 @@
 import './index.css';
 
-const BASE_URL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+const BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 const GAME_ID = ' Zl4d7IVkemOTTVg2fUdz';
 
 const postScore = async (newScore) => {
